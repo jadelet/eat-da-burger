@@ -14,7 +14,7 @@ $(function() {
       data: justDevouredState
     }).then(
       function() {
-        console.log("changed sleep to", justDevoured);
+        console.log("changed eaten state to", justDevoured);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -26,7 +26,7 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      name: $("#ca").val().trim(),
+      name: $(bn).val().trim(),
       devoured: $("[name=devoured]:checked").val().trim()
     };
 

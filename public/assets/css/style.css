@@ -3,7 +3,10 @@ li {
   margin: 5px;
   background: #faebd7;
 }
-
+body {
+  background:  url(../images/two-hamburgers-and-space-on-bottom_23-2147695662.jpg);
+  background-size: cover; 
+}
 .label {
   font-weight: bold;
 }
