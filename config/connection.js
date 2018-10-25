@@ -14,6 +14,7 @@ connection = mysql.createConnection({
   password: "password",
   database: "burger_db"
 });
+}
 
 // Make connection.
 connection.connect(function(err) {
