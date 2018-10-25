@@ -10,7 +10,7 @@ You can do any of the following:
   - delete an entered burger (not eat it, but 'send it back')
 
 When you open the application, you should see something like this: 
- (http://burger/public/assets/images/screenshot_1.gif)
+ https://github.com/jadelet/eat-da-burger/blob/master/public/assets/images/screenshot_1.gif
 
 -Add a burger under "Add a Burger"--decide when it goes in if it it goes in devoured or still up for grabs. . .
 - eat a burger by clicking on "Go on, eat it, you know you want to. . ." in any burger entry.
