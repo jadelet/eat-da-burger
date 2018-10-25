@@ -2,6 +2,9 @@
 	{{name}}
 
 	<button class="devour" data-id="{{id}}" data-justdevoured="{{devoured}}">
-		{{#if devoured}}Go on, eat it, you know you want to. . .{{/if}}
+		{{#if devoured}}Go on, eat it, you know you want to. . .{{else}}Order another?{{/if}}
 	</button>
+		<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
+
 </li>
